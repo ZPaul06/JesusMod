@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_boots"
+    },
+    "title": {
+      "text": "Mk. 1, 14-20",
+      "color": "dark_green",
+      "bold": true
+    },
+    "description": {
+      "text": "»Kommt, folgt mir!\nIch mache euch zu Menschenfischern!«",
+      "bold": false
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/snow.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "jesusmod:jesusmod_root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "jesusmod:follower"
+        }
+      }
+    }
+  }
+}

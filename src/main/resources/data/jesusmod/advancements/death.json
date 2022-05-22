@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "jesusmod:wooden_cross"
+    },
+    "title": {
+      "text": "Mk. 15, 21-41",
+      "color": "dark_green",
+      "bold": true
+    },
+    "description": {
+      "text": "»Mein Gott, mein Gott, warum hast du mich verlassen?«",
+      "bold": false
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/snow.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "jesusmod:jesusmod_root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "jesusmod:wooden_cross"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

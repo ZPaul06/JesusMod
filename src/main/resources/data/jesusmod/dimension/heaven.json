@@ -1,0 +1,12 @@
+{
+  "type": "jesusmod:heaven",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 0,
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "jesusmod:heavens"
+    }
+  }
+}

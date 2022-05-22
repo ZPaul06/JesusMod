@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jesusmod:block/wooden_cross",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "jesusmod:block/wooden_cross",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "jesusmod:block/wooden_cross",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jesusmod:block/wooden_cross",
+      "y": 270
+    }
+  }
+}

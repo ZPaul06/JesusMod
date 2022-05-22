@@ -1,0 +1,10 @@
+{
+  "biome.jesusmod.heavens": "Heaven",
+
+  "item.jesusmod.torah": "Torah",
+
+  "block.jesusmod.wooden_cross": "Cross",
+  "block.jesusmod.altar": "Altar",
+
+  "entity.jesusmod.follower" :"Follower"
+}

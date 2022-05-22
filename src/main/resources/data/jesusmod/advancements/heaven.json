@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:snow_block"
+    },
+    "title": {
+      "text": "Mk. 16, 9-20",
+      "color": "dark_green",
+      "bold": true
+    },
+    "description": {
+      "text": "Nachdem Jesus, der Herr, das zu den elf Jüngern gesagt hatte, wurde er in den Himmel aufgenommen.\nEr setzte sich an die rechte Seite Gottes.",
+      "bold": false
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/snow.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "jesusmod:jesusmod_root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "jesusmod:heaven"
+      }
+    }
+  }
+}s

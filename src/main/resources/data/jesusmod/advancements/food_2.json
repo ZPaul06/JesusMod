@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:salmon"
+    },
+    "title": {
+      "text": "Mk. 8, 1-10",
+      "color": "dark_green",
+      "bold": true
+    },
+    "description": {
+      "text": "»Ich habe großes Mitleid mit den Menschen. Sie sind nun schon drei Tage bei mir und haben nichts zu essen. Wenn ich sie hungrig nach Hause schicke, werden sie unterwegs zusammenbrechen – denn einige sind von weit her gekommen.«",
+      "bold": false
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/snow.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "jesusmod:food",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "jesusmod:shareable_food"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "jesusmod:altar"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

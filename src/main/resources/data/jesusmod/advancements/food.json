@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bread"
+    },
+    "title": {
+      "text": "Mk. 6, 33-44",
+      "color": "dark_green",
+      "bold": true
+    },
+    "description": {
+      "text": "»Alle sollen sich in Gruppen zum Essen im grünen Gras niederlassen.«",
+      "bold": false
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/snow.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "jesusmod:jesusmod_root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "jesusmod:shareable_food"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "jesusmod:altar"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
